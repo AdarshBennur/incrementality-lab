@@ -16,13 +16,13 @@ import { Sparkle } from "lucide-react";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Experiment Overview — Causal Lab" },
+      { title: "Experiment Overview — Impact Lab" },
       {
         name: "description",
         content:
           "Executive summary of a randomized marketing experiment: lift, incrementality, and statistical verdict.",
       },
-      { property: "og:title", content: "Experiment Overview — Causal Lab" },
+      { property: "og:title", content: "Experiment Overview — Impact Lab" },
       {
         property: "og:description",
         content:

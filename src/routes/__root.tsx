@@ -78,14 +78,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Causal — Marketing Experimentation & Incrementality Lab" },
+      { title: "Impact Lab — Marketing Experimentation Platform" },
       {
         name: "description",
         content:
           "Measure whether your marketing campaigns actually caused additional conversions and revenue. Treatment vs control, real incrementality, honest ROAS.",
       },
-      { name: "author", content: "Causal Lab" },
-      { property: "og:title", content: "Causal — Marketing Experimentation & Incrementality Lab" },
+      { name: "author", content: "Impact Lab" },
+      { property: "og:title", content: "Impact Lab — Marketing Experimentation Platform" },
       {
         property: "og:description",
         content:
@@ -97,6 +97,8 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     links: [
       { rel: "stylesheet", href: appCss },
       { rel: "icon", href: "/favicon.ico", type: "image/x-icon" },
+      { rel: "icon", href: "/assets/impact-lab-favicon.png", type: "image/png" },
+      { rel: "apple-touch-icon", href: "/assets/impact-lab-icon.png" },
       { rel: "preconnect", href: "https://fonts.googleapis.com" },
       { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "anonymous" },
       {

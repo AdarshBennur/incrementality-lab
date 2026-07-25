@@ -143,7 +143,7 @@ function computeResults() {
 
   const resultPrimitives = {
     id: "exp-real-data-25",
-    name: "Incrementality Lab Main Experiment",
+    name: "Impact Lab Main Experiment",
     campaign: "Holiday Prospecting",
     channel: "Meta + YouTube",
     status: "Completed",

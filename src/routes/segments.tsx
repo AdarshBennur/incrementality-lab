@@ -23,13 +23,13 @@ import { TrendingUp, TrendingDown, AlertTriangle } from "lucide-react";
 export const Route = createFileRoute("/segments")({
   head: () => ({
     meta: [
-      { title: "Segment Analysis — Causal Lab" },
+      { title: "Segment Analysis — Impact Lab" },
       {
         name: "description",
         content:
           "Discover which audiences responded to your campaign, with lift, confidence intervals, and a forest plot of every segment.",
       },
-      { property: "og:title", content: "Segment Analysis — Causal Lab" },
+      { property: "og:title", content: "Segment Analysis — Impact Lab" },
       {
         property: "og:description",
         content:

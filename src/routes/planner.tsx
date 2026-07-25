@@ -19,13 +19,13 @@ import {
 export const Route = createFileRoute("/planner")({
   head: () => ({
     meta: [
-      { title: "Experiment Planner — Causal Lab" },
+      { title: "Experiment Planner — Impact Lab" },
       {
         name: "description",
         content:
           "Design a rigorous marketing experiment before spending: sample size, duration, power, and readiness in one interactive tool.",
       },
-      { property: "og:title", content: "Experiment Planner — Causal Lab" },
+      { property: "og:title", content: "Experiment Planner — Impact Lab" },
       {
         property: "og:description",
         content:

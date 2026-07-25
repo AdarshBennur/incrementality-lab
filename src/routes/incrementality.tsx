@@ -17,13 +17,13 @@ import { Minus, Equal } from "lucide-react";
 export const Route = createFileRoute("/incrementality")({
   head: () => ({
     meta: [
-      { title: "Incrementality Analysis — Causal Lab" },
+      { title: "Incrementality Analysis — Impact Lab" },
       {
         name: "description",
         content:
           "Separate attributed performance from genuinely incremental revenue and quantify the true ROAS of your marketing spend.",
       },
-      { property: "og:title", content: "Incrementality Analysis — Causal Lab" },
+      { property: "og:title", content: "Incrementality Analysis — Impact Lab" },
       {
         property: "og:description",
         content:

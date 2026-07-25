@@ -44,13 +44,17 @@ export function AppShell({ children }: { children: ReactNode }) {
               <SheetContent side="left" className="w-[300px] sm:w-[400px]">
                 <SheetHeader className="mb-8 text-left">
                   <SheetTitle className="flex items-center gap-2.5">
-                    <div className="flex h-8 w-8 items-center justify-center rounded-md bg-primary text-primary-foreground">
-                      <Beaker className="h-4 w-4" strokeWidth={1.75} />
-                    </div>
+                    <img
+                      src="/assets/impact-lab-icon.png"
+                      alt=""
+                      width={32}
+                      height={32}
+                      className="h-8 w-8 shrink-0"
+                    />
                     <div className="leading-tight">
-                      <div className="font-serif text-lg tracking-tight">Causal</div>
+                      <div className="font-serif text-lg tracking-tight">Impact Lab</div>
                       <div className="text-[10px] uppercase tracking-[0.18em] text-muted-foreground -mt-0.5">
-                        Experiment Lab
+                        Experimentation Platform
                       </div>
                     </div>
                   </SheetTitle>
@@ -80,13 +84,17 @@ export function AppShell({ children }: { children: ReactNode }) {
             </Sheet>
 
             <Link to="/" className="flex items-center gap-2.5">
-              <div className="hidden md:flex h-8 w-8 items-center justify-center rounded-md bg-primary text-primary-foreground">
-                <Beaker className="h-4 w-4" strokeWidth={1.75} />
-              </div>
+              <img
+                src="/assets/impact-lab-icon.png"
+                alt=""
+                width={32}
+                height={32}
+                className="h-8 w-8 shrink-0"
+              />
               <div className="leading-tight">
-                <div className="font-serif text-lg tracking-tight">Causal</div>
+                <div className="font-serif text-lg tracking-tight">Impact Lab</div>
                 <div className="hidden md:block text-[10px] uppercase tracking-[0.18em] text-muted-foreground -mt-0.5">
-                  Experiment Lab
+                  Experimentation Platform
                 </div>
               </div>
             </Link>
@@ -165,7 +173,7 @@ export function AppShell({ children }: { children: ReactNode }) {
 
       <footer className="mx-auto max-w-[1440px] px-4 md:px-8 py-10 text-xs text-muted-foreground">
         <div className="hairline pt-6 flex flex-col sm:flex-row gap-4 sm:justify-between">
-          <span>Causal — Marketing Experimentation & Incrementality Lab</span>
+          <span>Impact Lab — Marketing Experimentation Platform</span>
           <span>Frontend demo · Deterministic data layer</span>
         </div>
       </footer>
