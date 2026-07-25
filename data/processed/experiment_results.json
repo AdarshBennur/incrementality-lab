@@ -1,0 +1,391 @@
+[
+  {
+    "id": "exp-real-data-25",
+    "name": "Incrementality Lab Main Experiment",
+    "campaign": "Holiday Prospecting",
+    "channel": "Meta + YouTube",
+    "status": "Completed",
+    "startDate": "2025-10-14",
+    "endDate": "2025-11-11",
+    "primaryKpi": "Purchase Conversion Rate",
+    "nTreat": 564577,
+    "nCtrl": 23524,
+    "convTreat": 14423,
+    "convCtrl": 420,
+    "revTreat": 2012509,
+    "revCtrl": 57770,
+    "spend": 495039,
+    "avgOrderValue": 139,
+    "daily": [
+      {
+        "day": 1,
+        "date": "2025-10-14",
+        "cvrTreat": 0.026439659489233852,
+        "cvrCtrl": 0.01639344262295082,
+        "cumConvTreat": 528,
+        "cumConvCtrl": 13
+      },
+      {
+        "day": 2,
+        "date": "2025-10-15",
+        "cvrTreat": 0.02565854399149776,
+        "cvrCtrl": 0.013959390862944163,
+        "cumConvTreat": 1014,
+        "cumConvCtrl": 22
+      },
+      {
+        "day": 3,
+        "date": "2025-10-16",
+        "cvrTreat": 0.026275142153950607,
+        "cvrCtrl": 0.015403830141548709,
+        "cumConvTreat": 1548,
+        "cumConvCtrl": 37
+      },
+      {
+        "day": 4,
+        "date": "2025-10-17",
+        "cvrTreat": 0.026013371000524102,
+        "cvrCtrl": 0.01472892510184895,
+        "cumConvTreat": 2035,
+        "cumConvCtrl": 47
+      },
+      {
+        "day": 5,
+        "date": "2025-10-18",
+        "cvrTreat": 0.02598519519611758,
+        "cvrCtrl": 0.014613252708490804,
+        "cumConvTreat": 2538,
+        "cumConvCtrl": 58
+      },
+      {
+        "day": 6,
+        "date": "2025-10-19",
+        "cvrTreat": 0.025610100336164645,
+        "cvrCtrl": 0.014229738090327902,
+        "cumConvTreat": 2994,
+        "cumConvCtrl": 69
+      },
+      {
+        "day": 7,
+        "date": "2025-10-20",
+        "cvrTreat": 0.025659845571181117,
+        "cvrCtrl": 0.01358983409812919,
+        "cumConvTreat": 3496,
+        "cumConvCtrl": 77
+      },
+      {
+        "day": 8,
+        "date": "2025-10-21",
+        "cvrTreat": 0.025590121172404046,
+        "cvrCtrl": 0.015029439107530214,
+        "cumConvTreat": 3983,
+        "cumConvCtrl": 97
+      },
+      {
+        "day": 9,
+        "date": "2025-10-22",
+        "cvrTreat": 0.025553759971676727,
+        "cvrCtrl": 0.015128593040847202,
+        "cumConvTreat": 4475,
+        "cumConvCtrl": 110
+      },
+      {
+        "day": 10,
+        "date": "2025-10-23",
+        "cvrTreat": 0.025596022399736473,
+        "cvrCtrl": 0.01554726368159204,
+        "cumConvTreat": 4973,
+        "cumConvCtrl": 125
+      },
+      {
+        "day": 11,
+        "date": "2025-10-24",
+        "cvrTreat": 0.02561896925723689,
+        "cvrCtrl": 0.01545103385594183,
+        "cumConvTreat": 5480,
+        "cumConvCtrl": 136
+      },
+      {
+        "day": 12,
+        "date": "2025-10-25",
+        "cvrTreat": 0.025434442563586106,
+        "cvrCtrl": 0.016098878271707518,
+        "cumConvTreat": 5935,
+        "cumConvCtrl": 155
+      },
+      {
+        "day": 13,
+        "date": "2025-10-26",
+        "cvrTreat": 0.025363264595840946,
+        "cvrCtrl": 0.016164514586322332,
+        "cumConvTreat": 6413,
+        "cumConvCtrl": 169
+      },
+      {
+        "day": 14,
+        "date": "2025-10-27",
+        "cvrTreat": 0.025466893039049237,
+        "cvrCtrl": 0.016368784285967084,
+        "cumConvTreat": 6930,
+        "cumConvCtrl": 185
+      },
+      {
+        "day": 15,
+        "date": "2025-10-28",
+        "cvrTreat": 0.025456840689780557,
+        "cvrCtrl": 0.016640450368407982,
+        "cumConvTreat": 7421,
+        "cumConvCtrl": 201
+      },
+      {
+        "day": 16,
+        "date": "2025-10-29",
+        "cvrTreat": 0.025481925386762,
+        "cvrCtrl": 0.016826923076923076,
+        "cumConvTreat": 7926,
+        "cumConvCtrl": 217
+      },
+      {
+        "day": 17,
+        "date": "2025-10-30",
+        "cvrTreat": 0.02542142139719496,
+        "cvrCtrl": 0.016934306569343065,
+        "cumConvTreat": 8403,
+        "cumConvCtrl": 232
+      },
+      {
+        "day": 18,
+        "date": "2025-10-31",
+        "cvrTreat": 0.025403800712597898,
+        "cvrCtrl": 0.01711693132604661,
+        "cumConvTreat": 8891,
+        "cumConvCtrl": 249
+      },
+      {
+        "day": 19,
+        "date": "2025-11-01",
+        "cvrTreat": 0.025481812052003477,
+        "cvrCtrl": 0.017012123582323034,
+        "cumConvTreat": 9410,
+        "cumConvCtrl": 261
+      },
+      {
+        "day": 20,
+        "date": "2025-11-02",
+        "cvrTreat": 0.025404875740375442,
+        "cvrCtrl": 0.017034933958770523,
+        "cumConvTreat": 9878,
+        "cumConvCtrl": 276
+      },
+      {
+        "day": 21,
+        "date": "2025-11-03",
+        "cvrTreat": 0.02549797868430724,
+        "cvrCtrl": 0.016801785924098225,
+        "cumConvTreat": 10407,
+        "cumConvCtrl": 286
+      },
+      {
+        "day": 22,
+        "date": "2025-11-04",
+        "cvrTreat": 0.025499355557063026,
+        "cvrCtrl": 0.016808606006275213,
+        "cumConvTreat": 10901,
+        "cumConvCtrl": 300
+      },
+      {
+        "day": 23,
+        "date": "2025-11-05",
+        "cvrTreat": 0.02558619656121876,
+        "cvrCtrl": 0.0167319139808012,
+        "cumConvTreat": 11439,
+        "cumConvCtrl": 312
+      },
+      {
+        "day": 24,
+        "date": "2025-11-06",
+        "cvrTreat": 0.025642839837309476,
+        "cvrCtrl": 0.01686635470766699,
+        "cumConvTreat": 11960,
+        "cumConvCtrl": 328
+      },
+      {
+        "day": 25,
+        "date": "2025-11-07",
+        "cvrTreat": 0.025588736428812486,
+        "cvrCtrl": 0.01702885995742785,
+        "cumConvTreat": 12435,
+        "cumConvCtrl": 344
+      },
+      {
+        "day": 26,
+        "date": "2025-11-08",
+        "cvrTreat": 0.025604751748071877,
+        "cvrCtrl": 0.017480524415732474,
+        "cumConvTreat": 12941,
+        "cumConvCtrl": 368
+      },
+      {
+        "day": 27,
+        "date": "2025-11-09",
+        "cvrTreat": 0.025585293837508336,
+        "cvrCtrl": 0.017735521323764686,
+        "cumConvTreat": 13431,
+        "cumConvCtrl": 388
+      },
+      {
+        "day": 28,
+        "date": "2025-11-10",
+        "cvrTreat": 0.025611599035617164,
+        "cvrCtrl": 0.017953242170269078,
+        "cumConvTreat": 13948,
+        "cumConvCtrl": 407
+      },
+      {
+        "day": 29,
+        "date": "2025-11-11",
+        "cvrTreat": 0.025546559636683747,
+        "cvrCtrl": 0.01785410644448223,
+        "cumConvTreat": 14423,
+        "cumConvCtrl": 420
+      }
+    ],
+    "segments": [
+      {
+        "dimension": "Device",
+        "name": "Tablet",
+        "nTreat": 56787,
+        "nCtrl": 2408,
+        "convTreat": 1439,
+        "convCtrl": 39,
+        "revenuePerConv": 139.47847470187966
+      },
+      {
+        "dimension": "Geography",
+        "name": "EMEA",
+        "nTreat": 168553,
+        "nCtrl": 7119,
+        "convTreat": 4372,
+        "convCtrl": 126,
+        "revenuePerConv": 139.47847470187966
+      },
+      {
+        "dimension": "Audience Segment",
+        "name": "New Visitors",
+        "nTreat": 337985,
+        "nCtrl": 13986,
+        "convTreat": 8586,
+        "convCtrl": 250,
+        "revenuePerConv": 139.47847470187966
+      },
+      {
+        "dimension": "Customer Type",
+        "name": "Repeat Customers",
+        "nTreat": 169772,
+        "nCtrl": 7088,
+        "convTreat": 4344,
+        "convCtrl": 125,
+        "revenuePerConv": 139.47847470187966
+      },
+      {
+        "dimension": "Daypart",
+        "name": "Evening (6p–12a)",
+        "nTreat": 162024,
+        "nCtrl": 6148,
+        "convTreat": 4445,
+        "convCtrl": 127,
+        "revenuePerConv": 139.47847470187966
+      },
+      {
+        "dimension": "Device",
+        "name": "Mobile",
+        "nTreat": 338818,
+        "nCtrl": 14159,
+        "convTreat": 8628,
+        "convCtrl": 253,
+        "revenuePerConv": 139.47847470187966
+      },
+      {
+        "dimension": "Geography",
+        "name": "North America",
+        "nTreat": 282385,
+        "nCtrl": 11702,
+        "convTreat": 7104,
+        "convCtrl": 211,
+        "revenuePerConv": 139.47847470187966
+      },
+      {
+        "dimension": "Audience Segment",
+        "name": "Returning",
+        "nTreat": 169290,
+        "nCtrl": 7112,
+        "convTreat": 4417,
+        "convCtrl": 125,
+        "revenuePerConv": 139.47847470187966
+      },
+      {
+        "dimension": "Customer Type",
+        "name": "First-Time Buyers",
+        "nTreat": 394805,
+        "nCtrl": 16436,
+        "convTreat": 10079,
+        "convCtrl": 295,
+        "revenuePerConv": 139.47847470187966
+      },
+      {
+        "dimension": "Daypart",
+        "name": "Morning (6a–12p)",
+        "nTreat": 136526,
+        "nCtrl": 5727,
+        "convTreat": 2889,
+        "convCtrl": 72,
+        "revenuePerConv": 139.47847470187966
+      },
+      {
+        "dimension": "Daypart",
+        "name": "Afternoon (12–6p)",
+        "nTreat": 246925,
+        "nCtrl": 10914,
+        "convTreat": 6832,
+        "convCtrl": 220,
+        "revenuePerConv": 139.47847470187966
+      },
+      {
+        "dimension": "Device",
+        "name": "Desktop",
+        "nTreat": 168972,
+        "nCtrl": 6957,
+        "convTreat": 4356,
+        "convCtrl": 128,
+        "revenuePerConv": 139.47847470187966
+      },
+      {
+        "dimension": "Audience Segment",
+        "name": "Lookalike 1%",
+        "nTreat": 57302,
+        "nCtrl": 2426,
+        "convTreat": 1420,
+        "convCtrl": 45,
+        "revenuePerConv": 139.47847470187966
+      },
+      {
+        "dimension": "Geography",
+        "name": "APAC",
+        "nTreat": 113639,
+        "nCtrl": 4703,
+        "convTreat": 2947,
+        "convCtrl": 83,
+        "revenuePerConv": 139.47847470187966
+      },
+      {
+        "dimension": "Daypart",
+        "name": "Late night (12–6a)",
+        "nTreat": 19102,
+        "nCtrl": 735,
+        "convTreat": 257,
+        "convCtrl": 1,
+        "revenuePerConv": 139.47847470187966
+      }
+    ]
+  }
+]

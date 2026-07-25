@@ -4,7 +4,8 @@ import { Eyebrow } from "./primitives";
 
 export function ExperimentHeader({ exp }: { exp: ExperimentPrimitives }) {
   const durationDays =
-    Math.round((new Date(exp.endDate).getTime() - new Date(exp.startDate).getTime()) / 86400000) + 1;
+    Math.round((new Date(exp.endDate).getTime() - new Date(exp.startDate).getTime()) / 86400000) +
+    1;
 
   const meta = [
     { label: "Campaign", value: exp.campaign },
@@ -25,15 +26,17 @@ export function ExperimentHeader({ exp }: { exp: ExperimentPrimitives }) {
         {exp.name}
       </h1>
       <p className="mt-4 max-w-2xl text-base text-muted-foreground leading-relaxed">
-        A randomized holdout study measuring whether {exp.channel.toLowerCase()} exposure
-        caused additional {exp.primaryKpi.toLowerCase().replace(" rate", "s")} — beyond what would have
+        A randomized holdout study measuring whether {exp.channel.toLowerCase()} exposure caused
+        additional {exp.primaryKpi.toLowerCase().replace(" rate", "s")} — beyond what would have
         happened organically.
       </p>
 
-      <dl className="mt-10 grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-9 gap-y-5 gap-x-6 hairline pt-6">
+      <dl className="mt-10 grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-9 gap-y-5 gap-x-4 sm:gap-x-6 hairline pt-6">
         {meta.map((m) => (
           <div key={m.label}>
-            <dt className="text-[10px] uppercase tracking-[0.14em] text-muted-foreground">{m.label}</dt>
+            <dt className="text-[10px] uppercase tracking-[0.14em] text-muted-foreground">
+              {m.label}
+            </dt>
             <dd className="mt-1 text-sm text-ink num">{m.value}</dd>
           </div>
         ))}

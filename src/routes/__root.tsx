@@ -79,10 +79,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       { title: "Causal — Marketing Experimentation & Incrementality Lab" },
-      { name: "description", content: "Measure whether your marketing campaigns actually caused additional conversions and revenue. Treatment vs control, real incrementality, honest ROAS." },
+      {
+        name: "description",
+        content:
+          "Measure whether your marketing campaigns actually caused additional conversions and revenue. Treatment vs control, real incrementality, honest ROAS.",
+      },
       { name: "author", content: "Causal Lab" },
       { property: "og:title", content: "Causal — Marketing Experimentation & Incrementality Lab" },
-      { property: "og:description", content: "Measure whether your marketing campaigns actually caused additional conversions and revenue." },
+      {
+        property: "og:description",
+        content:
+          "Measure whether your marketing campaigns actually caused additional conversions and revenue.",
+      },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
     ],

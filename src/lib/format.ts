@@ -1,5 +1,4 @@
-export const fmtPct = (v: number, digits = 2) =>
-  `${(v * 100).toFixed(digits)}%`;
+export const fmtPct = (v: number, digits = 2) => `${(v * 100).toFixed(digits)}%`;
 export const fmtPctRaw = (v: number, digits = 2) => `${v.toFixed(digits)}%`;
 export const fmtNum = (v: number, digits = 0) =>
   v.toLocaleString("en-US", { maximumFractionDigits: digits, minimumFractionDigits: digits });
